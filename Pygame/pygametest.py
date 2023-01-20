@@ -1,7 +1,8 @@
 import pygame
 
 WIDTH, LENGTH = 900,500
-screen = pygame.display.set_mode((WIDTH, LENGTH))
+WIN = pygame.display.set_mode((WIDTH, LENGTH))
+pygame.display.set_caption("Minesweeper", icontitle=None)
 
 def main(): 
 
